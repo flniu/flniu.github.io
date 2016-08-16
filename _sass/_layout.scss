@@ -213,6 +213,34 @@
     }
 }
 
+.post-subtitle{
+    color: $grey-color;
+}
+
+.post-tags {
+    color: $grey-color;
+    display: block;
+}
+
+.post-tags-all {
+    font-size: 1.4rem;
+    margin-bottom: $spacing-unit;
+}
+
+.post-tags-item {
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: #ededed;
+    color: $grey-color;
+    transition: background-color .7s;
+}
+
+.post-tags-item:hover {
+    border: none;
+    background: #666;
+    color: #ededed;
+}
+
 .post-content {
     margin-bottom: $spacing-unit;
 
@@ -239,4 +267,11 @@
             font-size: 18px;
         }
     }
+}
+
+/**
+ * Others
+ */
+.date {
+    color: $grey-color;
 }

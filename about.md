@@ -4,12 +4,24 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+### 牛飞龙
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+程序员，专注于数据库、大数据、云计算技术。
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+### Francis Niu
+
+Programmer, mainly focuses on database, big-data, cloud-computing, and general topics about computer programming.
+
+### About This Blog
+
+This blog is simply created with [Github Pages](https://pages.github.com/) & [Jekyll](http://jekyllrb.com/).
+
+This blog is inspired by the base Jekyll theme
+{% include icon-github.html username="jglovier" %} / [jekyll-new](https://github.com/jglovier/jekyll-new)
+and
+{% include icon-github.html username="itisbenjamin" %} / [Nice_Blog](https://github.com/itisbenjamin/Nice_Blog)
+.
+
+You can find the source code of this blog at:
+{% include icon-github.html username="flniu" %} / [flniu.github.io](https://github.com/flniu/flniu.github.io)
+.

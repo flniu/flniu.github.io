@@ -19,3 +19,26 @@ github_username:  flniu
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Personal information
+my:
+  name: 牛飞龙 | Francis Niu
+  location: 西安 | Xi'an
+  skillList:
+    - skill: SQL/ETL
+      percentage: 100%
+    - skill: VLDB
+      percentage: 50%
+    - skill: BigData
+      percentage: 20%
+    - skill: NoSQL
+      percentage: 10%
+    - skill: .NET
+      percentage: 70%
+    - skill: Python
+      percentage: 60%
+    - skill: HTML/CSS/JS
+      percentage: 60%
+    - skill: Vim
+      percentage: 80%
+

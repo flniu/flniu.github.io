@@ -1,0 +1,14 @@
+<section>
+    <ul class="list-skills">
+    {% for skill in site.my.skillList %}
+    <li>
+        <span class="skill">{{ skill.skill }}</span>
+        <div class="progress">
+            <div class="progress-bar" style="width: {{ skill.percentage }}; background: rgb(0,{{ skill.percentage | divided_by:25 | times:-51 | plus:204 }},255);">
+                <span>{{ skill.percentage }}</span>
+            </div>
+        </div>
+    </li>
+    {% endfor %}
+    </ul>
+</section>

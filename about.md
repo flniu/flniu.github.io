@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-### 牛飞龙
+### About Me
 
-程序员，专注于数据库、大数据、云计算技术、以及编程相关的一般话题。
+{% include bizcard.html %}
 
-### Francis Niu
+程序员，专注于数据库、互联网技术、以及编程相关的一般话题。
 
-Programmer, mainly focuses on database, big-data, cloud-computing, and general topics about computer programming.
+Programmer, mainly focuses on database, web technology, and general topics about computer programming.
 
 {% if site.my.skillList %}
 ### My Skill List
@@ -27,3 +27,5 @@ This blog is inspired by the base Jekyll theme [jekyll-new](https://github.com/j
 and [resumecard](https://github.com/ddbullfrog/resumecard).
 
 You can find the source code of this blog at [flniu.github.io](https://github.com/flniu/flniu.github.io).
+
+All contents in this blog without explicit license statement are licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>.

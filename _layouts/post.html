@@ -13,12 +13,19 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="post-footer">
   {% if page.tags %}
-  <div class="post-tags">Tags:
+  <span class="post-tags f-left">
+    <i class="fa fa-tags" aria-hidden="true"></i>
     {% for tag in page.tags %}
     <a class="post-tags-item" href="{{ site.baseurl }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
     {% endfor %}
-  </div>
+  </span>
   {% endif %}
+  <a class="add-comment f-right" href="https://github.com/flniu/flniu.github.io/issues/new?title={{ page.title }}">
+    <i class="fa fa-comment" aria-hidden="true"></i>
+    留言
+  </a>
+  </div>
 
 </article>

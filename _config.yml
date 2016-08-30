@@ -6,15 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 牛飞龙 | Francis Niu
-#email: flniu@126.com
+title: 飞龙 Francis
 description: > # this means to ignore newlines until "baseurl:"
-  This is my personal blog which mainly focuses on database, big-data, cloud-computing,
-  and general topics about computer programming.
+  Focus on database, web technology, and general topics about computer programming.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://flniu.github.io/" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
-github_username:  flniu
+repository: "flniu/flniu.github.io"
 
 # Build settings
 markdown: kramdown
@@ -24,20 +21,33 @@ permalink: pretty
 my:
   name: 牛飞龙 | Francis Niu
   location: 西安 | Xi'an
+  job:
+  school: 华东师范大学 计算机 本科 | ECNU CS Bachelor
+  website: https://flniu.github.io/
+  githubid: flniu
+  linkedinid:
+  twitterid:
+  email: echo flniu%126.com | tr % @
+  weixin: feilongsss
+  phone:
   skillList:
-    - skill: SQL/ETL
-      percentage: 100%
+    - skill: Database/SQL
+      percentage: 90%
     - skill: VLDB
       percentage: 50%
     - skill: BigData
-      percentage: 20%
+      percentage: 30%
     - skill: NoSQL
       percentage: 10%
+    - skill: BI(DW/ETL/Reporting)
+      percentage: 70%
     - skill: .NET
       percentage: 70%
     - skill: Python
       percentage: 60%
     - skill: HTML/CSS/JS
+      percentage: 60%
+    - skill: Web Analysis
       percentage: 60%
     - skill: Vim
       percentage: 80%

@@ -217,9 +217,11 @@
     color: $grey-color;
 }
 
+.post-footer {
+}
+
 .post-tags {
     color: $grey-color;
-    display: block;
 }
 
 .post-tags-all {
@@ -274,4 +276,12 @@
  */
 .date {
     color: $grey-color;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
 }

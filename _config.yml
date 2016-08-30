@@ -10,7 +10,7 @@ title: 飞龙 Francis
 description: > # this means to ignore newlines until "baseurl:"
   Focus on database, web technology, and general topics about computer programming.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://flniu.github.io/" # the base hostname & protocol for your site
+url: "https://flniu.github.io" # the base hostname & protocol for your site
 repository: "flniu/flniu.github.io"
 
 # Build settings
@@ -23,7 +23,7 @@ my:
   location: 西安 | Xi'an
   job:
   school: 华东师范大学 计算机 本科 | ECNU CS Bachelor
-  website: https://flniu.github.io/
+  website: https://flniu.github.io
   githubid: flniu
   linkedinid:
   twitterid:

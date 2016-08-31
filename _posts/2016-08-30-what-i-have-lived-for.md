@@ -1,10 +1,8 @@
 ---
-layout: post
 title: "[译]我为何而生"
 subtitle: What I have lived for?
 author: "伯特兰·罗素(Bertrand Russell)"
 date: 2016-08-30 20:32:12 +0800
-categories: literature
 tags: 文学 翻译
 ---
 

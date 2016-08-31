@@ -17,6 +17,16 @@ repository: "flniu/flniu.github.io"
 markdown: kramdown
 permalink: pretty
 
+# Set defaults for YAML Front Matter variables
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      category: blog
+
 # Personal information
 my:
   name: 牛飞龙 | Francis Niu

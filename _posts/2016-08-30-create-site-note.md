@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "建站笔记(Github Pages+Jekyll)"
 date: 2016-08-30 22:31:49 +0800
-categories: website
 tags: web blog jekyll github
 ---
 

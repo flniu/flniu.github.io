@@ -8,7 +8,7 @@ tags: vim pathogen vim-plug
 
 # 目标、原则、设计思路
 
-有不少人倾向于把Vim打造成一款准IDE，如[spf13-vim][]、[fisa-vim-config][]、[k-vim][]是几款不错的配置，从他们的代码中也可以学到很多Vim技巧和设计思路。然而我觉得这样的配置太重了。我倾向于把Vim当作一款统一的文本查看及编辑器，比如查看编辑单个代码或配置文件、查看Log文件、读TXT文档（配合[txt.vim][]）、写博客（Jekyll或Pelican）、等等。如果Vim需要加载的配置很多，启动都有了可察觉的延迟，那就不符合文本编辑器的本义了。况且IDE并不是Vim的优势，PyCharm(Python)、IntelJ(Java)、Visual Studio(.NET)在各自领域都有着不可取代的优势。
+有不少人倾向于把Vim打造成一款准IDE，如[spf13-vim][]、[fisa-vim-config][]、[k-vim][]是几款不错的配置，从他们的代码中也可以学到很多Vim技巧和设计思路。然而我觉得这样的配置太重了。我倾向于把Vim当作一款统一的文本查看及编辑器，比如查看编辑单个代码或配置文件、查看Log文件、读TXT文档（配合[txt.vim][]）、写博客（Jekyll或Pelican）、等等。如果Vim需要加载的配置很多，启动都有了可察觉的延迟，那就不符合文本编辑器的本义了。况且IDE并不是Vim的优势，PyCharm(Python)、IntelliJ IDEA(Java)、Visual Studio(.NET)在各自领域都有着不可取代的优势。
 
 所以我的设计思路就是让Vim配置尽可能简单，尽可能通用，可以平滑地迁移到不同的工作环境(Mac/Linux/Windows, GUI/Console, Desktop/Server)，哪怕是不能访问外网、不能轻易安装或升级软件的服务器。这算是一种Vim配置的**“优雅降级”**（前端术语）吧。（此前看到一种说法：“最通用的配置就是不加个性化配置，这样才能保证在各种环境的使用习惯完全一致。”这样未免过于极端，无法发挥Vim的强大，而且毕竟大多数时候我们的工作环境是相对固定的。）
 
@@ -34,7 +34,7 @@ molokai和solarized似乎是目前非常流行的两款Vim主题。我尝试之�
 
 目前在Windows环境使用的是Courier_New字体。
 
-新的等款字体还有待尝试。
+新的等宽字体还有待尝试。
 
 ## 状态栏
 

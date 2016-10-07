@@ -16,6 +16,7 @@ repository: "flniu/flniu.github.io"
 # Build settings
 markdown: kramdown
 permalink: pretty
+timezone: Asia/Shanghai
 
 # Set defaults for YAML Front Matter variables
 defaults:

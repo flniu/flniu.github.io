@@ -41,20 +41,16 @@ my:
   weixin: feilongsss
   phone:
   skillList:
-    - skill: Database/SQL
+    - skill: Database/VLDB/SQL
       percentage: 90%
-    - skill: VLDB
-      percentage: 50%
-    - skill: BigData
+    - skill: BigData/NoSQL/NewSQL
       percentage: 30%
-    - skill: NoSQL
-      percentage: 10%
     - skill: BI(DW/ETL/Reporting)
       percentage: 70%
     - skill: .NET
-      percentage: 70%
-    - skill: Python
       percentage: 60%
+    - skill: Python
+      percentage: 80%
     - skill: HTML/CSS/JS
       percentage: 60%
     - skill: Web Analysis

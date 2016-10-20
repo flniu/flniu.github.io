@@ -6,13 +6,16 @@ title: "Personal Wiki"
 * Shell
     * Homebrew: 必备
     * Homebrew-cask: 使用brew安装OSX应用
-    * iTerm2: 分屏是利器
-    * Oh My Zsh:
+    * iTerm2: 分屏
+    * Oh My Zsh: 主题和插件
         * plugins=(git git-flow z virtualenvwrapper web-search common-aliases vi-mode)
 * Text Editor
-    * Vim
-    * Sublime Text
-    * Atom
+    * Vim: use everywhere.
+        * 我的Vim配置: [f-vimrc](https://github.com/flniu/f-vimrc)
+        * [Vim Awesome](http://vimawesome.com/): Vim世界的插件汇集。
+        * [Vim Windows build](https://tuxproject.de/projects/vim/)
+    * Sublime Text: 易上手，右侧preview效果不错。闭源，个人可免费使用。
+    * [Atom](https://atom.io/): Github家的开源编辑器，基于Web技术开发。
 * Web Browser
     * Firefox
         * Flagfox: Display a flag according to the location of current web server.

@@ -3,31 +3,13 @@
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>Created by <a href="{{ site.baseurl }}/about/">{{ site.my.name }}</a></li>
-          <li>Licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></li>
-        </ul>
+      <div class="footer-col footer-col-1 left">
+        Created by <a href="{{ site.baseurl }}/about/">flniu</a>,
+        licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
       </div>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.my.githubid %}
-          <li>
-            {% include icon-github.html username=site.my.githubid %}
-          </li>
-          {% endif %}
-
-          {% if site.my.twitterid %}
-          <li>
-            {% include icon-twitter.html username=site.my.twitterid %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+      <div class="footer-col footer-col-2 right">
+        {{ site.description }}
       </div>
     </div>
 

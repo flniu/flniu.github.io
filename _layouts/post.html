@@ -15,14 +15,14 @@ layout: default
 
   <div class="post-footer">
   {% if page.tags %}
-  <span class="post-tags f-left">
+  <span class="post-tags left">
     <i class="fa fa-tags" aria-hidden="true"></i>
     {% for tag in page.tags %}
     <a class="post-tags-item" href="{{ site.baseurl }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
     {% endfor %}
   </span>
   {% endif %}
-  <a class="add-comment f-right" href="https://github.com/flniu/flniu.github.io/issues/new?title={{ page.title }}">
+  <a class="add-comment right" href="https://github.com/flniu/flniu.github.io/issues/new?title={{ page.title }}">
     <i class="fa fa-comment" aria-hidden="true"></i>
     留言
   </a>

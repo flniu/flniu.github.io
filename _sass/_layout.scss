@@ -73,11 +73,11 @@
         .trigger {
             clear: both;
             display: none;
+        }
 
-            &:hover {
-                display: block;
-                padding-bottom: 5px;
-            }
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
         }
 
         .page-link {

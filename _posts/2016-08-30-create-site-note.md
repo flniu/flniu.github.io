@@ -29,5 +29,5 @@ tags: web blog jekyll github
 
 遗留问题：
 
-* 对Jekyll的工作原理以及Jekyll和Github Metadata的关系还理解得不清楚。本地`jekyll serve`时，当页面修改超过两次，Regenerating会出错，尚未解决。
+* 本地`jekyll serve`时，当页面修改超过两次，Regenerating会出错，尚未解决。UPDATE: 这个问题与GitHub API authentication有关，参考[该帖](https://confluence.atlassian.com/bitbucketserver/permanently-authenticating-with-git-repositories-776639846.html)解决。
 * 页面布局不够好，未来考虑用Bootstrap重新设计一下。

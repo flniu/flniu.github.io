@@ -4,9 +4,6 @@ title: "Personal Wiki"
 ---
 
 * Shell
-    * Homebrew: 必备
-    * Homebrew-cask: 使用brew安装OSX应用
-    * iTerm2: 分屏
     * Oh My Zsh: 主题和插件
         * plugins=(git git-flow z virtualenvwrapper web-search common-aliases vi-mode)
 * Text Editor
@@ -28,4 +25,12 @@ title: "Personal Wiki"
         * Zotero
     * Chrome
     * Safari
-* [Programming](programming)
+* Mac
+    * Homebrew: 必备
+    * Homebrew-cask: 使用brew安装OSX应用
+    * iTerm2: 分屏
+* Ubuntu
+    * apt
+    * [Linuxbrew](http://linuxbrew.sh/)
+* Windows
+* [Programming](programming/)

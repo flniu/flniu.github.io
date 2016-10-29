@@ -73,11 +73,11 @@
         .trigger {
             clear: both;
             display: none;
-        }
 
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
+            &:hover {
+                display: block;
+                padding-bottom: 5px;
+            }
         }
 
         .page-link {
@@ -100,44 +100,37 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit / 2 0;
-}
 
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
+    .footer-col-wrapper {
+        font-size: 15px;
+        color: $grey-color;
+        margin-left: -$spacing-unit / 2;
+        @extend %clearfix;
 
-.footer-col {
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
+        .footer-col {
+            margin-bottom: $spacing-unit / 2;
+            padding-left: $spacing-unit / 2;
+        }
 
-.footer-col-1 {
-    width: -webkit-calc(55% - (#{$spacing-unit} / 2));
-    width:         calc(55% - (#{$spacing-unit} / 2));
-}
+        .footer-col-1 {
+            width: -webkit-calc(55% - (#{$spacing-unit} / 2));
+            width:         calc(55% - (#{$spacing-unit} / 2));
+        }
 
-.footer-col-2 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-    text-align: right;
-}
+        .footer-col-2 {
+            width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+            width:         calc(45% - (#{$spacing-unit} / 2));
+            text-align: right;
+        }
 
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        @include media-query($on-palm) {
+            .footer-col-1,
+            .footer-col-2 {
+                width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+                width:         calc(100% - (#{$spacing-unit} / 2));
+                text-align: right;
+            }
+        }
     }
 }
 
@@ -160,17 +153,25 @@
 
     > li {
         margin-bottom: $spacing-unit;
+
+        .post-meta {
+            font-size: $small-font-size;
+            color: $grey-color;
+            padding-right: $base-font-size / 2;
+        }
+
+        .post-item {
+            display: inline-block;
+
+            @include media-query($on-palm) {
+                display: block;
+            }
+
+            .post-link {
+                font-size: 24px;
+            }
+        }
     }
-}
-
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-    padding-right: $base-font-size / 2;
-}
-
-.post-link {
-    font-size: 24px;
 }
 
 
@@ -186,10 +187,6 @@
     font-size: $base-font-size-2x;
     letter-spacing: -1px;
     line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: $base-font-size-2x;
-    }
 }
 
 .post-subtitle{

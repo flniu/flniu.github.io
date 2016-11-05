@@ -25,12 +25,23 @@ title: "Personal Wiki"
         * Zotero
     * Chrome
     * Safari
+* Multi-media Player
+    * Video:
+        * VLC: cross platform
+        * MPC-HC: Windows only
+    * Music:
+        * Foobnix
+        * Deadbeef
+        * Foobar2000: Windows only
 * Mac
     * Homebrew: 必备
     * Homebrew-cask: 使用brew安装OSX应用
     * iTerm2: 分屏
+    * aText: text expansion, $4.99
+    * Dash: $24.99
+    * Alfred: L17.00
 * Ubuntu
     * apt
     * [Linuxbrew](http://linuxbrew.sh/)
-* Windows
+* [Windows](windows/)
 * [Programming](programming/)

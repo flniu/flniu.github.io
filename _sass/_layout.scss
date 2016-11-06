@@ -181,15 +181,20 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    padding: 1rem;
+    background-color: $grey-color-light;
 }
 
 .post-title {
-    font-size: 24px;
+    font-size: 26px;
     letter-spacing: -1px;
-    line-height: 1;
 }
 
 .post-subtitle{
+    color: $grey-color;
+}
+
+.post-meta{
     color: $grey-color;
 }
 

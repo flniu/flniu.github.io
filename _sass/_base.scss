@@ -79,6 +79,25 @@ li {
 
 
 /**
+ * Tables
+ */
+table {
+    border-collapse:collapse;
+    margin-bottom: $spacing-unit / 2;
+
+    th, td {
+        border: 1px solid $grey-color;
+        padding: 2px 5px;
+    }
+
+    thead {
+        background-color: $grey-color-light;
+    }
+}
+
+
+
+/**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {

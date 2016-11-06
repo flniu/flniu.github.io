@@ -1,11 +1,9 @@
-.bizcard {
-    margin-bottom: $spacing-unit / 2;
-}
+table.bizcard {
+    td {
+        border: none;
 
-.bizcard .item {
-    text-align: center;
-}
-
-.bizcard td {
-    padding: 0 3px;
+        &.item {
+            text-align: center;
+        }
+    }
 }

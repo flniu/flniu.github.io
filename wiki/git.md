@@ -11,7 +11,7 @@ title: "Git"
 
 # Git Note
 
-### Special notations
+### Notations
 
 | Notation | Meaning |
 | --- | --- |
@@ -21,10 +21,13 @@ title: "Git"
 | `A..B` | range between commit A and commit B |
 | `A...B` | range from the common ancestor of A and B to commit B |
 
-examples:
+Examples:
+
 * `git diff @~ @`
 * `git diff master..contrib`
 * `git diff master...contrib`
+
+See [gitrevisions](https://git-scm.com/docs/gitrevisions) for more details.
 
 ### Tips
 

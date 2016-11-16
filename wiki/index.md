@@ -22,7 +22,12 @@ title: "Personal Wiki"
         * FireShot: Screenshot whole page.
         * Zotero
     * Chrome
+        * AngularJS Batarang
+        * SessionBox
     * Safari
+* Web Debugger
+    * Postman
+    * Fiddler 2
 * Multi-media Player
     * Video:
         * VLC: cross platform
@@ -38,9 +43,11 @@ title: "Personal Wiki"
     * aText: text expansion, $4.99
     * Dash: $24.99
     * Alfred: L17.00
+    * iChm
 * Ubuntu
     * apt
     * [Linuxbrew](http://linuxbrew.sh/)
+    * xChm
 * [Windows](windows/)
 * [Programming](programming/)
 * [Regular expression](regex/)

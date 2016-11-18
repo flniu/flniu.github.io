@@ -16,7 +16,7 @@ title: "Personal Wiki"
         * Flagfox: Display a flag according to the location of current web server.
         * HttpFox: HTTP analyzer. (can be replaced by built-in Web Developer - Network tool.)
         * Multifox: Multiple cookie profiles, easy to test multiple accounts on one site.
-        * Vimperator: Vim-mode in firefox
+        * Vimperator: Vim-mode in firefox. (Cool, but not necessary.)
         * It's All Text!: Edit textarea using external editor.
         * Advanced Cookie Manager: Manage, monitor, export/import cookies.
         * FireShot: Screenshot whole page.
@@ -37,17 +37,19 @@ title: "Personal Wiki"
         * Deadbeef
         * Foobar2000: Windows only
 * Mac
-    * Homebrew: 必备
-    * Homebrew-cask: 使用brew安装OSX应用
-    * iTerm2: 分屏
+    * Homebrew: must have.
+    * Homebrew-cask: use brew to install GUI apps.
+    * iTerm2: split screen is helpful.
     * aText: text expansion, $4.99
     * Dash: $24.99
     * Alfred: L17.00
-    * iChm
+    * iChm: chm reader
 * Ubuntu
     * apt
     * [Linuxbrew](http://linuxbrew.sh/)
-    * xChm
+    * xChm: chm reader
 * [Windows](windows/)
 * [Programming](programming/)
 * [Regular expression](regex/)
+* [Data Science](data-science/)
+* [DevOps](devops/)

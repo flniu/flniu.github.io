@@ -5,7 +5,7 @@ title: "Git"
 
 # Resources
 
-* *[Pro Git](https://git-scm.com/book)*: The only book you need to learn Git.
+* *[Pro Git](https://git-scm.com/book)*: The only book you need for learning Git.
 * [Git Reference](https://git-scm.com/docs)
 
 
@@ -42,6 +42,15 @@ git clone --depth=1 https://github.com/user/repo.git
 ```
 git remote add origin https://github.com/user/repo.git
 git branch -u origin/master
+```
+
+##### Sync a fork
+
+```
+git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+git fetch upstream
+git checkout master
+git merge upstream/master
 ```
 
 ##### Set alias

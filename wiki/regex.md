@@ -6,7 +6,8 @@ title: "Regular expression"
 # Resources
 
 * [正则表达式30分钟入门教程](http://deerchao.net/tutorials/regex/regex.htm)
-* https://en.wikipedia.org/wiki/Regular_expression
+* [Regular_expression](https://en.wikipedia.org/wiki/Regular_expression)
+* [Regexr.com](http://regexr.com/)
 
 # Different versions
 
@@ -24,3 +25,5 @@ Syntax differences:
 * In BRE, add backslash before `()`, `{}`, `|`, `+`.
 * No `?` in BRE.
 * Use `:h pattern` to check Vim regex.
+
+Quick Ref Card: [RegExDiff](/doc/RegExDiff.txt)

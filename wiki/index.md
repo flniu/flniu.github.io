@@ -22,8 +22,9 @@ title: "Personal Wiki"
         * FireShot: Screenshot whole page.
         * Zotero
     * Chrome
-        * AngularJS Batarang
-        * SessionBox
+        * AngularJS Batarang: AngularJS debug tool
+        * SessionBox: like Multifox
+        * uDomainFlag: like Flagfox
     * Safari
 * Web Debugger
     * Postman

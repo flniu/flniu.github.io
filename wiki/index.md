@@ -3,6 +3,8 @@ layout: page
 title: "Personal Wiki"
 ---
 
+# Tools & Skills
+
 * Shell
     * Oh My Zsh: 主题和插件
         * plugins=(git git-flow z virtualenvwrapper web-search common-aliases vi-mode)
@@ -14,13 +16,11 @@ title: "Personal Wiki"
 * Web Browser
     * Firefox
         * Flagfox: Display a flag according to the location of current web server.
-        * HttpFox: HTTP analyzer. (can be replaced by built-in Web Developer - Network tool.)
         * Multifox: Multiple cookie profiles, easy to test multiple accounts on one site.
-        * Vimperator: Vim-mode in firefox. (Cool, but not necessary.)
         * It's All Text!: Edit textarea using external editor.
         * Advanced Cookie Manager: Manage, monitor, export/import cookies.
         * FireShot: Screenshot whole page.
-        * Zotero
+        * ~~Vimperator~~: Vim-mode in firefox. (Cool, but not necessary.)
     * Chrome
         * AngularJS Batarang: AngularJS debug tool
         * SessionBox: like Multifox
@@ -54,3 +54,21 @@ title: "Personal Wiki"
 * [Regular expression](regex/)
 * [Data Science](data-science/)
 * [DevOps](devops/)
+
+
+# IT News & Communities
+
+* [toutiao](https://toutiao.io/)
+* [startup news](http://news.dbanotes.net/)
+* [diycode](https://www.diycode.cc/)
+* [v2ex](https://www.v2ex.com/)
+* [infoq](http://www.infoq.com/)
+
+
+# References
+
+## Markdown
+
+* [Original Markdown](http://daringfireball.net/projects/markdown/syntax)
+* [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+* [kramdown](https://kramdown.gettalong.org/quickref.html)

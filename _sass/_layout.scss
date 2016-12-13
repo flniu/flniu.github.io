@@ -246,3 +246,14 @@
 .fa-rss-square {
     color: orange;
 }
+
+#toc {
+    margin-bottom: $spacing-unit;
+}
+.clickable-header {
+    cursor:pointer;
+}
+.back-to-top {
+    float: right;
+    cursor:pointer;
+}

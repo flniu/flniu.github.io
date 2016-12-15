@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: wiki
 title: "Personal Wiki"
 ---
 
@@ -63,6 +63,31 @@ title: "Personal Wiki"
 * [diycode](https://www.diycode.cc/)
 * [v2ex](https://www.v2ex.com/)
 * [infoq](http://www.infoq.com/)
+
+
+# Blogs
+
+## Good Content
+
+* [酷壳](http://coolshell.cn/)
+* [4G Spaces 徐宥](http://blog.youxu.info/)
+* [余晟以为](http://www.luanxiang.org/blog/)
+* [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+* [温国兵的随想录](https://dbarobin.com/): DBA
+* [Yuguo 余果](https://yuguo.us/): Web全栈
+
+## Good Design
+
+* [Hux Blog](https://huangxuan.me/): 前端，博客模板很高大上。
+* [HyG](https://gaohaoyang.github.io/): 前端，博客主题功能比较多。
+* [SunXiaobiu技术不宅](http://sunxiaobiu.github.io/): 基于Jacman，作者头像很萌。
+* [sevenChe](http://blog.sevenche.com/): 极简风格，效果像O'Relly书系封面。
+* [chen9 照澄](http://www.chen9.info/): 文艺
+* [叶劲峰 Milo Yip](http://miloyip.com/cv/): 计算机图形学专家，简历赞。
+* [翁天信 Danny's Blog](http://blog.dandyweng.com/): homeschooler，摄影、设计、编程。
+* [STOME SPIRIT](http://wulfric.me/): Mac, Alfred, Git, Vim, Python, Jekyll, etc.
+* [YUE](https://tengyue.me/): 交互设计师
+* [猫尾博客](https://cattail.me/): 显示文章阅读时长，用issue代评论。
 
 
 # References

@@ -13,6 +13,10 @@ title: "Personal Wiki"
     * [Vim](vim/): use everywhere.
     * Sublime Text: 易上手，右侧preview效果不错。闭源，个人可免费使用。
     * [Atom](https://atom.io/): Github家的开源编辑器，基于Web技术开发。
+* Security
+    * SSH
+    * GnuPG
+    * LastPass vs KeePass
 * Web Browser
     * Firefox
         * Flagfox: Display a flag according to the location of current web server.
@@ -43,7 +47,7 @@ title: "Personal Wiki"
     * iTerm2: split screen is helpful.
     * aText: text expansion, $4.99
     * Dash: $24.99
-    * Alfred: L17.00
+    * Alfred: £17.00
     * iChm: chm reader
 * Ubuntu
     * apt
@@ -85,7 +89,7 @@ title: "Personal Wiki"
 * [chen9 照澄](http://www.chen9.info/): 文艺
 * [叶劲峰 Milo Yip](http://miloyip.com/cv/): 计算机图形学专家，简历赞。
 * [翁天信 Danny's Blog](http://blog.dandyweng.com/): homeschooler，摄影、设计、编程。
-* [STOME SPIRIT](http://wulfric.me/): Mac, Alfred, Git, Vim, Python, Jekyll, etc.
+* [STORM SPIRIT](http://wulfric.me/): Mac, Alfred, Git, Vim, Python, Jekyll, etc.
 * [YUE](https://tengyue.me/): 交互设计师
 * [猫尾博客](https://cattail.me/): 显示文章阅读时长，用issue代评论。
 

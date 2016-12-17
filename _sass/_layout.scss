@@ -264,3 +264,21 @@ a.external {
     background-position: center right;
     padding-right: 13px;
 }
+
+.pager {
+    color: $grey-color;
+    text-align: right;
+
+    .page {
+        margin: 0 1ex;
+    }
+
+    .prev,
+    .next {
+        a {
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

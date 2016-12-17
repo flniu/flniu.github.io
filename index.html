@@ -5,7 +5,7 @@ layout: default
 <div class="home">
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
         <div class="post-item">
@@ -14,5 +14,27 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+
+  {% if paginator.total_pages > 1 %}
+  <div class="pager">
+    <span class="prev">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}">&lt; newer</a>
+      {% else %}
+        &lt; newer
+      {% endif %}
+    </span>
+    <span class="page">
+      {{ paginator.page }}/{{ paginator.total_pages }}
+    </span>
+    <span class="next">
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}">older &gt;</a>
+      {% else %}
+        older &gt;
+      {% endif %}
+    </span>
+  </div>
+  {% endif %}
 
 </div>

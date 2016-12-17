@@ -185,4 +185,4 @@ PyCharm是现今业界最流行的Python集成开发环境(IDE)。它还提供�
 
 
 [Structured_program_patterns]: https://upload.wikimedia.org/wikipedia/commons/e/ec/Structured_program_patterns.png "Graphical representations of the three basic patterns using NS diagrams (blue) and flow charts (green). from Wikipedia."
-[pycharm-edu]: {{ site.baseurl }}/img/pycharm-edu.png "PyCharm Edu的内置练习"
+[pycharm-edu]: {{ site.img }}/pycharm-edu.png "PyCharm Edu的内置练习"

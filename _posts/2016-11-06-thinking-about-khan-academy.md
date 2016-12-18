@@ -2,7 +2,7 @@
 title: "关于可汗学院的读书笔记和思考"
 subtitle: "Thinking about Khan Achademy"
 date: 2016-11-06 23:29:28 +0800
-tags: Education
+tags: education
 ---
 
 [Khan Achademy](https://www.khanacademy.org/)（[可汗学院中国](https://zh-hans.khanacademy.org/)）成立于2006年，引起广泛关注应该是2011年其创始人Salman Khan的TED的演讲[Let's use video to reinvent education](https://www.ted.com/talks/salman_khan_let_s_use_video_to_reinvent_education)（[中文字幕版](http://open.163.com/movie/2011/7/C/6/M77ESEJF8_M77ESRDC6.html)）之后。2012年被称为“[MOOC](https://en.wikipedia.org/wiki/Massive_open_online_course)之年”，可汗学院在这一年也得到了更多关注。如今又是4年过去，可汗学院已经成立10年了。

@@ -1,7 +1,7 @@
 ---
 title: "理解字符编码"
 date: 2016-10-07 01:59:31 +0800
-tags: encoding charset fundamental
+tags: charset fundamental
 ---
 
 >这是一篇写于2010年的旧帖，略作修改。

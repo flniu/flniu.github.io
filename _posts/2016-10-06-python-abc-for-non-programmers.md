@@ -1,7 +1,7 @@
 ---
-title: "写给非IT专业同学的Python入门辅导"
+title: "写给非程序员的Python入门辅导"
 date: 2016-10-06 23:19:35 +0800
-tags: python
+tags: non-programmer python
 ---
 
 >这篇文章的目标读者是零编程基础的Python初学者。这不是一个完整的Python入门教程，而只是简单说明一些与编程（针对但不限于Python）有关的基础概念，作为在Python入门教程之前或之外的一个辅助。希望对初学者有所帮助。

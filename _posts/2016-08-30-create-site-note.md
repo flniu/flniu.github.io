@@ -1,7 +1,7 @@
 ---
 title: "建站笔记(Github Pages+Jekyll)"
 date: 2016-08-30 22:31:49 +0800
-tags: web blog jekyll github
+tags: blog jekyll github
 ---
 
 终于下决心建一个博客，记录日常的技术学习和思考。

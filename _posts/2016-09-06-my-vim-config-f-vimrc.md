@@ -1,7 +1,7 @@
 ---
 title: "我的Vim配置：f-vimrc"
 date: 2016-09-06 12:25:37 +0800
-tags: vim pathogen vim-plug
+tags: vim
 ---
 
 最近在换工作的空当期，花时间整理了一下用了很多年的vim配置，清理掉一些多余的配置项，最终形成这个[f-vimrc][]。

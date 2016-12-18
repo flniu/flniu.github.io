@@ -1,6 +1,7 @@
 ---
 layout: wiki
 title: "Personal Wiki"
+subtitle: "Build a memory palace."
 ---
 
 # Tools & Skills

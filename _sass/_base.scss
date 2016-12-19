@@ -102,6 +102,7 @@ table {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
+    margin-top: $spacing-unit;
 }
 
 h1 {
@@ -110,20 +111,21 @@ h1 {
 }
 h2 {
     font-size: $base-font-size * 1.25;
-    border-bottom: 1px solid $grey-color-light;
 }
 h3 {
     font-size: $base-font-size * 1.1;
+    border-bottom: 1px solid $grey-color-light;
 }
 h4 {
     font-size: $base-font-size;
 }
 h5 {
-    font-size: $base-font-size * 0.875;
+    font-size: $base-font-size;
     color: $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
 }
 h6 {
-    font-size: $base-font-size * 0.85;
+    font-size: $base-font-size;
     color: $grey-color-dark;
 }
 

@@ -5,41 +5,25 @@ subtitle: Keep calm and carry on.
 permalink: /tags/
 ---
 
-<section class="post-tags post-tags-all">
-    {% assign tags_list = site.tags %}
-    
-    {% if tags_list.first[0] == null %}
-    {% for tag in tags_list %}
-    <a class="post-tags-item" href="#{{ tag | slugify }}">{{ tag }}</a>
-    {% endfor %}
-    {% else %}
-    {% for tag in tags_list %}
-    <a class="post-tags-item" href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
-    {% endfor %}
-    {% endif %}
-    
-    {% assign tags_list = nil %}
+{% assign tags_list = site.tags | sort %}
 
+<section class="post-tags post-tags-all">
+{% for tag in tags_list %}
+<a class="post-tags-item" href="#{{ tag[0] | slugify }}">{{ tag[0] }}({{ tag[1] | size }})</a>
+{% endfor %}
 </section>
 
 <hr>
 
-    {% for tag in site.tags  %}
-    <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
-    
-    <ul>
-        {% assign pages_list = tag[1] %}
-        {% for post in pages_list reversed %}
-        {% if post.title != null %}
-        {% if group == null or group == post.group %}
-        <li>
-		<p><a href="{{ post.url | prepend: site.baseurl }}">
-			{{ post.title }}</a><span class="date"><time datetime="{{ post.date | date_to_xmlschema }}"> - {{ post.date | date: "%Y-%m-%d" }}</time></span></p>
-        </li>
-        {% endif %}
-        {% endif %}
-        {% endfor %}
-        {% assign pages_list = nil %}
-        {% assign group = nil %}
-    </ul>
+{% for tag in tags_list %}
+<h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}({{ tag[1] | size }})</h2>
+
+<ul>
+    {% for post in tag[1] %}
+    <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="date"><time datetime="{{ post.date | date_to_xmlschema }}"> - {{ post.date | date: "%Y-%m-%d" }}</time></span>
+    </li>
     {% endfor %}
+</ul>
+{% endfor %}

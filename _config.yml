@@ -8,7 +8,7 @@
 # Site settings
 title: 飞龙IT笔记
 description: > # this means to ignore newlines until "baseurl:"
-  database, web, programming.
+  database, programming, education.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://flniu.github.io" # the base hostname & protocol for your site
 repository: "flniu/flniu.github.io"
@@ -34,10 +34,10 @@ defaults:
 
 # Personal information
 my:
-  name: 牛飞龙 | Francis Niu
-  location: 西安 | Xi'an
+  name: 牛飞龙 (Francis Niu)
+  location: 中国西安 (Xi'an, China)
   job:
-  school: 华东师范大学 计算机 本科 | ECNU CS Bachelor
+  school: 华东师范大学 计算机 本科 (ECNU CS Bachelor)
   website: https://flniu.github.io
   githubid: flniu
   linkedinid:
@@ -46,19 +46,13 @@ my:
   weixin: feilongsss
   phone:
   skillList:
-    - skill: Database/VLDB/SQL
+    - skill: Database/VLDB/BI
       percentage: 90%
     - skill: BigData/NoSQL/NewSQL
-      percentage: 30%
-    - skill: BI(DW/ETL/Reporting)
-      percentage: 70%
-    - skill: .NET
-      percentage: 60%
+      percentage: 20%
     - skill: Python
       percentage: 80%
     - skill: HTML/CSS/JS
-      percentage: 60%
-    - skill: Web Analysis
       percentage: 60%
     - skill: Vim
       percentage: 80%

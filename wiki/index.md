@@ -85,6 +85,7 @@ subtitle: "Build a memory palace."
 
 * [Hux Blog](https://huangxuan.me/): 前端，博客模板很高大上。
 * [HyG](https://gaohaoyang.github.io/): 前端，博客主题功能比较多。
+* [wil.dog](http://wil.dog/): 移动+前端+Python、摄影、音乐。
 * [SunXiaobiu技术不宅](http://sunxiaobiu.github.io/): 基于Jacman，作者头像很萌。
 * [sevenChe](http://blog.sevenche.com/): 极简风格，效果像O'Relly书系封面。
 * [chen9 照澄](http://www.chen9.info/): 文艺

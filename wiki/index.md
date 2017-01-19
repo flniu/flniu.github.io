@@ -63,11 +63,11 @@ subtitle: "Build a memory palace."
 
 # IT News & Communities
 
+* [v2ex](https://www.v2ex.com/)
+* [infoq](http://www.infoq.com/)
 * [toutiao](https://toutiao.io/)
 * [startup news](http://news.dbanotes.net/)
 * [diycode](https://www.diycode.cc/)
-* [v2ex](https://www.v2ex.com/)
-* [infoq](http://www.infoq.com/)
 
 
 # Blogs
@@ -80,6 +80,8 @@ subtitle: "Build a memory palace."
 * [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
 * [温国兵的随想录](https://dbarobin.com/): DBA
 * [Yuguo 余果](https://yuguo.us/): Web全栈
+* [罗磊的独立博客](https://luolei.org/): 前端，摄影，视频，无人机航拍，数码测评，晒妻狂魔
+* [前端观察](https://www.qianduan.net/): 前端技术分享网站，多人博客
 
 ## Good Design
 

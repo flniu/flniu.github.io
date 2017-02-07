@@ -58,10 +58,13 @@ subtitle: "Build a memory palace."
 * [Programming](programming/)
 * [Regular expression](regex/)
 * [Data Science](data-science/)
+* [AI](ai/)
 * [DevOps](devops/)
 
 
 # IT News & Communities
+
+* [Hacker News](https://news.ycombinator.com/)
 
 * [v2ex](https://www.v2ex.com/)
 * [infoq](http://www.infoq.com/)
@@ -69,6 +72,7 @@ subtitle: "Build a memory palace."
 * [startup news](http://news.dbanotes.net/)
 * [diycode](https://www.diycode.cc/)
 
+* [微信公众号](weixin-mp/)
 
 # Blogs
 

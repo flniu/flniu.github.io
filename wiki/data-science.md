@@ -3,6 +3,10 @@ layout: wiki
 title: "Data Science"
 ---
 
+# Theory
+
+* [Readings in Database Systems (Red Book)](http://www.redbook.io/)
+
 # Relational Databases
 
 * MySQL

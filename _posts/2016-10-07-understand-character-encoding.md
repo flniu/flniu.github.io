@@ -96,7 +96,7 @@ WHERE n BETWEEN 32 AND 126 --ASCII，略去控制字符
 补充：以上查询在Python中近似等价于以下语句（为避免输出过多，只显示边界值）：
 
 ```python
-def PrintUnicode(n):
+def print_unicode(n):
     ch = chr(n)
     print('{}\t{}\t{}\t{}\t{}'.format(n,
                                       hex(n),
@@ -109,7 +109,7 @@ for i in (32, 126,
           19968, 40869,
           65281, 65374,
           12288):
-    PrintUnicode(i)
+    print_unicode(i)
 ```
 
 **实现方式定义了每个码位如何以字节流的方式表示。**ISO-10646的标准把Unicode称为[通用字符集(Universal Character Set, UCS)][Universal_Character_Set]，相应的实现方式以“UCS-”加上编码所用的字节数命名。如UCS-2用2个字节编码，只能表示BMP中的字符，UCS-4用4个字节编码，可以表示所有平面的字符，这两种实现方式都是定长编码。另一种实现方式来自Unicode标准，名为[通用编码转换格式(Unicode Translation Format, UTF)][UTF-8]，常用的实现方式以“UTF-”加上编码所用的基本位数命名。如UTF-8以8位单字节为单位，将不同码位映射到一组字节，BMP字符在UTF-8中被编码为1到3个字节（其中，U+0000到U+007F的ASCII字节在UTF-8中是1个字节（与ASCII编码相同），中文字符在UTF-8中通常是3个字节），BMP之外的字符则映射为4个字节；UTF-16以16位双字节为单位，BMP字符为2个字节，BMP之外的字符为4个字节；UTF-32则是定长的4个字节。这三种实现方式都可以表示所有平面的字符。
@@ -124,7 +124,7 @@ UTF-8是以单字节为单位进行编码，因而不存在字节序的问题。
 
 BOM造成的混乱余波未了：尽管UTF-8无关字节序，而有些程序（比如Windows平台的notepad）会在UTF-8格式的文本开头也加上BOM（U+FEFF对应的UTF-8编码是0xEFBBBF），这在一些情况下会造成文本解析的问题。
 
-Unicode标准把编码方案和实现方式分离开，好处是允许不同实现方式的存在（如UCS和UTF），负面效果却是加剧了字符编码的复杂局面。我们列举一下常见的Unicode字符编码：UCS-2LE/UTF-16LE（小端）、UCS-2BE/UTF-16BE（大端）、UTF-8，虽然它们内部采用的是相同的码位映射标准，然而不同的实现方式使得它们需要当作不同的字符编码来对待；再考虑是否添加BOM，问题的复杂度再乘以2。|||
+Unicode标准把编码方案和实现方式分离开，好处是允许不同实现方式的存在（如UCS和UTF），负面效果却是加剧了字符编码的复杂局面。我们列举一下常见的Unicode字符编码：UCS-2LE/UTF-16LE（小端）、UCS-2BE/UTF-16BE（大端）、UTF-8，虽然它们内部采用的是相同的码位映射标准，然而不同的实现方式使得它们需要当作不同的字符编码来对待；再考虑是否添加BOM，问题的复杂度再乘以2。
 
 # 字符编码相关的问题领域
 
@@ -184,7 +184,7 @@ SELECT @ansi, @ucs2, CAST(@ansi AS varbinary(20)), CAST(@ucs2 AS varbinary(20))
 中華    中華    0xA4A4B5D8    0x2D4EEF83
 ```
 
-补充：在MySQL中，统一采用UTF-8存储字符值，更简单统一。
+补充：在MySQL中，统一采用UTF-8存储字符值，更简单统一。但MySQL中的`utf8`编码只支持BMP字符，MySQL 5.5.3之后引入的`utf8mb4`编码则支持BMP字符和BMP之外的补充字符。
 
 
 [Character_encoding]:       http://en.wikipedia.org/wiki/Character_encoding

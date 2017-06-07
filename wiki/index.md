@@ -14,7 +14,7 @@ subtitle: "Build a memory palace."
     * [Vim](vim/): use everywhere.
     * Sublime Text: 易上手，右侧preview效果不错。闭源，个人可免费使用。
     * [Atom](https://atom.io/): Github家的开源编辑器，基于Web技术开发。
-* Security
+* [Security](security/)
     * SSH
     * GnuPG
     * LastPass vs KeePass
@@ -86,6 +86,7 @@ subtitle: "Build a memory palace."
 * [Yuguo 余果](https://yuguo.us/): Web全栈
 * [罗磊的独立博客](https://luolei.org/): 前端，摄影，视频，无人机航拍，数码测评，晒妻狂魔
 * [前端观察](https://www.qianduan.net/): 前端技术分享网站，多人博客
+* [方糖气球](http://ftqq.com/): Easy同学
 
 ## Good Design
 

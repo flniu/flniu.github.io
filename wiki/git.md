@@ -65,6 +65,15 @@ git merge upstream/master
 git config --global alias.unstage 'reset HEAD --'
 ```
 
+##### Create/delete remote tag
+
+```
+# create
+git push origin tagname
+# delete
+git push origin :tagname
+```
+
 
 # Git的设计之美
 

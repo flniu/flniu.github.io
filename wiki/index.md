@@ -69,8 +69,6 @@ subtitle: "Build a memory palace."
 * [v2ex](https://www.v2ex.com/)
 * [infoq](http://www.infoq.com/)
 * [toutiao](https://toutiao.io/)
-* [startup news](http://news.dbanotes.net/)
-* [diycode](https://www.diycode.cc/)
 
 * [微信公众号](weixin-mp/)
 

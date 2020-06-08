@@ -103,8 +103,17 @@ subtitle: "Build a memory palace."
 
 # References
 
+## Developer
+
+* [The Pragmatic Programmer, 20th Anniversary Edition](tpp20/)
+
 ## Markdown
 
 * [Original Markdown](http://daringfireball.net/projects/markdown/syntax)
 * [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
 * [kramdown](https://kramdown.gettalong.org/quickref.html)
+
+## Github Pages
+
+* [Themes](https://pages.github.com/themes/)
+

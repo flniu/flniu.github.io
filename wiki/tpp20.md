@@ -3,84 +3,547 @@ layout: wiki
 title: "The Pragmatic Programmer, 20th Anniversary Edition"
 ---
 
-# Preface to the Second Edition
+# Preface to the Second Edition 新版前言
 
-# From the Preface to the First Edition
+# From the Preface to the First Edition 第一版前言
 
-# A Pragmatic Philosophy
-## It’s Your Life
-## The Cat Ate My Source Code
-## Software Entropy
-## Stone Soup and Boiled Frogs
-## Good-Enough Software
-## Your Knowledge Portfolio
-## Communicate!
+    Tip.1: 关注你的技艺。
 
-# A Pragmatic Approach
-## The Essence of Good Design
-## DRY—The Evils of Duplication
-## Orthogonality
-## Reversibility
-## Tracer Bullets
-## Prototypes and Post-it Notes
-## Domain Languages
-## Estimating
+如果你不关心怎么做好，为什么还要花时间去开发软件呢？
 
-# The Basic Tools
-## The Power of Plain Text
-## Shell Games
-## Power Editing
-## Version Control
-## Debugging
-## Text Manipulation
-## Engineering Daybooks
+    Tip.2: 思考！思考你的工作。
 
-# Pragmatic Paranoia
-## Design by Contract
-## Dead Programs Tell No Lies
-## Assertive Programming
-## How to Balance Resources
-## Don’t Outrun Your Headlights
+关掉辅助驾驶，由自己掌控，持续不断地评估所做的工作。
 
-# Bend, or Break
-## Decoupling
-## Juggling the Real World
-## Transforming Programming
-## Inheritance Tax
-## Configuration
 
-# Concurrency
-## Breaking Temporal Coupling
-## Shared State Is Incorrect State
-## Actors and Processes
-## Blackboards
+# A Pragmatic Philosophy 第1章 务实的哲学
 
-# While You Are Coding
-## Listen to Your Lizard Brain
-## Programming by Coincidence
-## Algorithm Speed
-## Refactoring
-## Test to Code
-## Property-Based Testing
-## Stay Safe Out There
-## Naming Things
+## It’s Your Life 人生是你的
 
-# Before the Project
-## The Requirements Pit
-## Solving Impossible Puzzles
-## Working Together
-## The Essence of Agility
+    Tip.3: 你有权选择。
 
-# Pragmatic Projects
-## Pragmatic Teams
-## Coconuts Don’t Cut It
-## Pragmatic Starter Kit
-## Delight Your Users
-## Pride and Prejudice
+人生是自己的。把握住人生，让它如你所愿。
 
-# Postface
+## The Cat Ate My Source Code 我的源码被猫吃了
 
-# Possible Answers to the Exercises
+    Tip.4: 提供选择，别找借口。
 
+提供选择而不是去找理由。不要只说做不到；解释一下都能做些什么。
+
+## Software Entropy 软件的熵
+
+    Tip.5: 不要放任破窗。
+
+只要看到不好的设计、错误的决策、糟糕的代码，就赶紧去纠正。
+
+## Stone Soup and Boiled Frogs 石头汤与煮青蛙
+
+    Tip.6: 做推动变革的催化剂。
+
+你无法强迫人们去改变，但可以展示美好未来，并帮助他们参与创造。
+
+    Tip.7: 牢记全景。
+
+不要过度沉浸于细枝末节，以免察觉不到周围正在发生的事情。
+
+## Good-Enough Software 够好即可的软件
+
+    Tip.8: 将质量要求视为需求问题。
+
+让用户参与对项目真实质量需求的确定。
+
+## Your Knowledge Portfolio 知识组合
+
+    Tip.9: 对知识组合做定期投资。
+
+养成学习的习惯。
+
+    Tip.10: 批判性地分析你读到和听到的东西。
+
+不要受供应商、媒体炒作或教条的影响，根据自身和项目的实际情况来分析信息。
+
+## Communicate! 交流！
+
+    Tip.11: 英语就是另一门编程语言。
+
+将英语视作一门编程语言。写文档和编程一样要遵循 DRY 原则、ETC、自动化等。
+
+    Tip.12: 说什么和怎么说同样重要。
+
+如果无法有效交流，任何伟大的想法都是没有意义的。
+
+    Tip.13: 把文档嵌进去，而不要栓在表面。
+
+与代码隔离的文档，很难保持正确并及时更新。
+
+
+# A Pragmatic Approach 第2章 务实的方法
+
+## The Essence of Good Design 优秀设计的精髓
+
+    Tip.14: 优秀的设计比糟糕的设计更容易变更。
+
+适合使用者的事物，都已经过良好设计。对代码来说，这意味着必须适应变化。
+
+**ETC原则: Easier To Change**
+
+## DRY—The Evils of Duplication DRY——邪恶的重复
+
+    Tip.15: DRY——不要重复自己。
+
+系统中的每一条知识，都必须有单一且无歧义的权威陈述。
+
+**DRY原则: Don't Repeat Yourself**
+
+    Tip.16: 让复用变得更容易。
+
+只要复用方便，人们就会去做。创建一个支持复用的环境。
+
+## Orthogonality 正交性
+
+    Tip.17: 消除不相关事物之间的影响。
+
+设计的组件，需要自成一体、独立自主，有单一的清晰定义的意图。
+
+## Reversibility 可逆性
+
+    Tip.18: 不设最终决定。
+
+不要把决定刻在石头上，而要将其视为写在沙滩上的东西，时刻准备应变。
+
+    Tip.19: 放弃追逐时尚。
+
+尼尔·福特说过：“昨日之最佳实践，即明日之反模式。”要基于基本原则去选择架构，而不应盲从于流行。
+
+## Tracer Bullets 曳光弹
+
+    Tip.20: 使用曳光弹找到目标。
+
+通过不断尝试并看清着弹点，曳光弹可确保你最终击中目标。
+
+## Prototypes and Post-it Notes 原型与便签
+
+    Tip.21: 用原型学习。
+
+制作原型旨在学习经验，其价值不在于过程中产生的代码，而在于得到的教训。
+
+## Domain Languages 领域语言
+
+    Tip.22: 靠近问题域编程。
+
+用问题领域的语言来做设计和编程。
+
+## Estimating 估算
+
+    Tip.23: 通过估算来避免意外。
+
+开始之前做估算，能提前发现潜在问题。
+
+    Tip.24: 根据代码不断迭代进度表。
+
+利用实施过程中获得的经验来精细化项目的时间尺度。
+
+
+# The Basic Tools 第3章 基础工具
+
+## The Power of Plain Text 纯文本的威力
+
+    Tip.25: 将知识用纯文本保存。
+
+纯文本不会过时。它能够让你的工作事半功倍，并能简化调试和测试工作。
+
+## Shell Games Shell游戏
+
+    Tip.26: 发挥 Shell 命令的威力。
+
+当图形化界面无法胜任时，使用 Shell。
+
+## Power Editing 加强编辑能力
+
+    Tip.27: 游刃有余地使用编辑器。
+
+既然编辑器是至关重要的工具，不妨了解一下如何用它更快更准确地实现需求。
+
+## Version Control 版本控制
+
+    Tip.28: 永远使用版本控制。
+
+版本控制为你的工作创造了一个时间机器，可以用它重返过去。
+
+## Debugging 调试
+
+    Tip.29: 去解决问题，而不是责备。
+
+Bug 到底来自你的失误还是别人的失误真的不重要——它终究是你的问题，需要你来修复。
+
+    Tip.30: 不要恐慌。
+
+不管是对银河系搭车客，还是对开发者来说，都应这样。
+
+    Tip.31: 修代码前先让代码在测试中失败。
+
+在你修 Bug 前，先创建一个聚焦于该 Bug 的测试。
+
+    Tip.32: 读一下那些该死的出错信息。
+
+大多数异常都能告诉失败之物与失败之处。如果足够幸运，你甚至能得到具体的参数值。
+
+    Tip.33: “select”没出问题。
+
+在操作系统或编译器中发现 Bug 非常罕见，甚至在第三方产品或库中也是如此。Bug 大多出现在应用程序中。
+
+    Tip.34: 不要假设，要证明。
+
+在真实环境中证实你的假设——要依赖真实的数据及边界条件。
+
+## Text Manipulation 文本处理
+
+    Tip.35: 学习一门文本处理语言。
+
+既然每天都要花大量的时间与文本打交道，何不让计算机帮你分担一二？
+
+## Engineering Daybooks 工程日记
+
+
+# Pragmatic Paranoia 第4章 务实的偏执
+
+    Tip.36: 你无法写出完美的软件。
+
+软件不可能是完美的。对于在所难免的错误，要保护代码和用户免受其影响。
+
+## Design by Contract 契约式设计
+
+    Tip.37: 通过契约进行设计。
+
+代码是否不多不少刚好完成它宣称要做的事情，可以使用契约加以校验和文档化。
+
+## Dead Programs Tell No Lies 死程序不会说谎
+
+    Tip.38: 尽早崩溃。
+
+彻底死掉的程序通常比有缺陷的程序造成的损害要小。
+
+## Assertive Programming 断言式编程
+
+    Tip.39: 使用断言去预防不可能的事情。
+
+如果一件事情不可能发生，那么就用断言来确保其的确不会发生。断言在校验你的假设，要使用断言在不确定的世界中将你的代码保护起来。
+
+## How to Balance Resources 如何保持资源的平衡
+
+    Tip.40: 有始有终。
+
+只要有可能，对资源进行分配的函数或对象就有责任去释放该资源。
+
+    Tip.41: 在局部行动。
+
+将易变的变量维持在一个范围内，打开资源的过程要短暂且明显可见。
+
+## Don’t Outrun Your Headlights 不要冲出前灯范围
+
+    Tip.42: 小步前进——由始至终。
+
+永远小步前进，不断检查反馈，并且在推进前先做调整。
+
+    Tip.43: 避免占卜。
+
+只在你能看到的范围内做计划。
+
+
+# Bend, or Break 第5章 宁弯不折
+
+## Decoupling 解耦
+
+    Tip.44: 解耦代码让改变更容易。
+
+耦合使事物紧紧绑定在一起，以至于很难只改变其中之一。
+
+    Tip.45: 只管命令不要询问。
+
+不要从对象中取出值，在加以变换后再塞回去，让对象自己来完成这些工作。
+
+    Tip.46: 不要链式调用方法。
+
+当访问某事物时，使用的点号不要超过一个。
+
+    Tip.47: 避免全局数据。
+
+最好给每个方法增加一个额外的参数。
+
+    Tip.48: 如果全局唯一非常重要，那么将它包装到API 中。
+
+……但是，仅限于你真的非常希望它是全局的。
+
+## Juggling the Real World 在现实世界中抛球杂耍
+
+## Transforming Programming 变换式编程
+
+    Tip.49: 编程讲的是代码，而程序谈的是数据。
+
+所有的程序都在变换数据——将输入转换为输出。开始用变换式方法来设计吧！
+
+    Tip.50: 不要囤积状态，传递下去。
+
+不要把数据保持在函数或模块的内部，拿出来传递下去。
+
+## Inheritance Tax 继承税
+
+    Tip.51: 不要付继承税。
+
+考虑一下能更好满足需求的替代方案，比如接口、委托或mixin。
+
+    Tip.52: 尽量用接口来表达多态。
+
+无需继承引入的耦合，接口就能明确描述多态性。
+
+    Tip.53: 用委托提供服务：“有一个”胜过“是一个”。
+
+不要从服务中继承，应该包含服务。
+
+    Tip.54: 利用 mixin 共享功能。
+
+mixin 不必承担继承税就可以给类添加功能，而与接口结合可以让多态不再令人痛苦。
+
+## Configuration 配置
+
+    Tip.55: 使用外部配置参数化应用程序。
+
+如果代码对一些在应用程序发布后还有可能改变的值有所依赖，那么就在应用外部维护这些值。
+
+
+# Concurrency 第6章 并发
+
+## Breaking Temporal Coupling 打破时域耦合
+
+    Tip.56: 通过分析工作流来提高并发性。
+
+利用用户工作流中的并发性。
+
+## Shared State Is Incorrect State 共享状态是不正确的状态
+
+    Tip.57: 共享状态是不正确的状态。
+
+共享状态会带来无穷的麻烦，而且往往只有重启才能解决。
+
+    Tip.58: 随机故障通常是并发问题。
+
+或许时间和上下文的变化能暴露并发Bug，但并发Bug无法始终保持一致，也很难重现。
+
+## Actors and Processes 角色与进程
+
+    Tip.59: 用角色实现并发性时不必共享状态。
+
+使用角色来管理并发状态，可以避免显式的同步。
+
+## Blackboards 黑板
+
+    Tip.60: 使用黑板来协调工作流。
+
+使用黑板来协调不相关的事实和代理人，能同时保持参与者之间的独立性和孤立性。
+
+
+# While You Are Coding 第7章 当你编码时
+
+## Listen to Your Lizard Brain 听从蜥蜴脑
+
+    Tip.61: 倾听你内心的蜥蜴。
+
+当编程举步维艰时，其实是潜意识在告诉你有什么地方不对劲。
+
+## Programming by Coincidence 巧合式编程
+
+    Tip.62: 不要依赖巧合编程。
+
+只能依赖可靠的事物。注意偶然事件的复杂性，不要混淆快乐的巧合与有目的的计划。
+
+## Algorithm Speed 算法速度
+
+    Tip.63: 评估算法的级别。
+
+在开始编程前，对这件事情大概会花多长时间要有概念。
+
+    Tip.64: 对估算做测试。
+
+针对算法的数学分析无法说明所有问题，尝试在目标环境中测试一下执行代码的耗时。
+
+## Refactoring 重构
+
+    Tip.65: 尽早重构，经常重构。
+
+像除草和翻整花园那样，只要有需要就对代码进行重新编写、修订和架构，以便找到问题的根源并加以修复。
+
+## Test to Code 为编码测试
+
+    Tip.66: 测试与找 Bug 无关。
+
+测试是观察代码的一个视角，可以从中得到针对设计、接口和耦合度的反馈。
+
+    Tip.67: 测试是代码的第一个用户。
+
+用测试的反馈来引导工作。
+
+    Tip.68: 既非自上而下，也不自下而上，基于端对端构建。
+
+创建一小块端到端的功能，从中获悉问题之所在。
+
+    Tip.69: 为测试做设计。
+
+写下代码之前先从测试角度思考。
+
+    Tip.70: 要对软件做测试，否则只能留给用户去做。
+
+无情地测试，不要等用户来帮你找 Bug。
+
+## Property-Based Testing 基于特性测试
+
+    Tip.71: 使用基于特性的测试来校验假设。
+
+基于特性的测试将会进行你从未想过的尝试，并会以你不曾打算采用的方式操练你的代码。
+
+## Stay Safe Out There 出门在外注意安全
+
+    Tip.72: 保持代码简洁，让攻击面最小。
+
+复杂的代码给 Bug 以滋生之沃土，给攻击者以可趁之机。
+
+    Tip.73: 尽早打上安全补丁。
+
+攻击者会尽可能快地部署攻击，你必须快上加快。
+
+## Naming Things 事物命名
+
+    Tip.74: 好好取名；需要时更名。
+
+用名字向读者表达你的意图，并且在意图改变时及时更名。
+
+
+# Before the Project 第8章 项目启动之前
+
+## The Requirements Pit 需求之坑
+
+    Tip.75: 无人确切知道自己想要什么。
+
+他们或许知道大概的方向，但不会了解过程的曲折。
+
+    Tip.76: 程序员帮助人们理解他们想要什么。
+
+软件开发更像是一种由用户和程序员协同创造的行为。
+
+    Tip.77: 需求是从反馈循环中学到的。
+
+理解需求需要探索和反馈，因此决策的结果可以用来完善最初的想法。
+
+    Tip.78: 和用户一起工作以便从用户角度思考。
+
+这是看透系统将如何被真正使用的最佳方法。
+
+    Tip.79: 策略即元数据。
+
+不要将策略硬编码进系统，而应该将其表达为系统的一组元数据。
+
+    Tip.80: 使用项目术语表。
+
+为项目的所有特定词汇创建一张术语表，并且在单一源头维护。
+
+## Solving Impossible Puzzles 处理无法解决的难题
+
+    Tip.81: 不要跳出框框思考——找到框框。
+
+在面对无法解决的难题时，识别出真正的约束。可以问自己：“必须这样做才能搞定吗？必须搞定它吗？”
+
+## Working Together 携手共建
+
+    Tip.82: 不要一个人埋头钻进代码中。
+
+编程往往困难又费力，找个朋友和你一起干。
+
+    Tip.83: 敏捷不是一个名词；敏捷有关你如何做事。
+
+敏捷是一个形容词，有关如何做事情。
+
+## The Essence of Agility 敏捷的本质
+
+
+# Pragmatic Projects 第9章 务实的项目
+
+## Pragmatic Teams 务实的团队
+
+    Tip.84: 维持小而稳定的团队。
+
+团队应保持稳定、小巧，团队中的每个人都应相互信任、互相依赖。
+
+    Tip.85: 排上日程以待其成。
+
+如果你不把事情纳入日程表，它们就不会发生。反思、实验、学习、提高技能，这些事都应放入日程表。
+
+    Tip.86: 组织全功能的团队。
+
+围绕功能而不是工作职能组织团队。不要将 UI/UX 设计者从程序员中分离出去，也不要分开前端和后端；不要区分数据建模者和测试人员，以及开发和设计。构建一个团队，这样你就可以渐进地不断迭代端到端的代码。
+
+## Coconuts Don’t Cut It 椰子派不上用场
+
+    Tip.87: 做能起作用的事，别赶时髦。
+
+不要仅仅因为别的公司正在那么干就采纳一项技术或采用一个开发方法，而是要采用自己所处环境中对团队有效的东西。
+
+    Tip.88: 在用户需要时交付。
+
+不要卡着流程要求，刻意等到几周甚至几个月后才交付。
+
+## Pragmatic Starter Kit 务实的入门套件
+
+    Tip.89: 使用版本控制来驱动构建、测试和发布。
+
+利用提交或推送来触发构建、测试、发布，利用版本控制的标签来进行生产部署。
+
+    Tip.90: 尽早测试，经常测试，自动测试。
+
+每次构建都跑一下的测试，要比束之高阁的测试计划有效得多。
+
+    Tip.91: 直到所有的测试都已运行，编码才算完成。
+
+无须多言。
+
+    Tip.92: 使用破坏者检测你的测试。
+
+在一个单独的源码副本中特意引入 Bug，验证测试能否将其捕获。
+
+    Tip.93: 测试状态覆盖率，而非代码覆盖率。
+
+要识别并测试重要的程序状态，只测试一行行的代码是不够的。
+
+    Tip.94: 每个 Bug 只找一次。
+
+只要人类测试者找到一个 Bug ，就应该是该 Bug 最后一次被人类发现。从此之后，自动化测试完全可以发现它。
+
+    Tip.95: 不要使用手动程序。
+
+计算机能一次又一次，按照同样的次序，执行相同的指令。
+
+## Delight Your Users 取悦用户
+
+    Tip.96: 取悦用户，而不要只是交付代码。
+
+为用户开发能够带来商业价值的解决方案，并让他们每天都感到愉快。
+
+    Tip.97: 在作品上签名。
+
+过去的工匠在为他们的作品签名时非常自豪，你也应该这样。
+
+## Pride and Prejudice 傲慢与偏见
+
+
+# Postface 跋
+
+    Tip.98: 先勿伤害。
+
+犯错在所难免，确保犯错后没人会因此受难。
+
+    Tip.99: 不要助纣为虐。
+
+因为这样做你也有变成纣王的风险。
+
+
+---
 
 Inspired by [HugoMatilla/The-Pragmatic-Programmer](https://github.com/HugoMatilla/The-Pragmatic-Programmer).

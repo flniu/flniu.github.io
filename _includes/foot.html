@@ -2,10 +2,14 @@
 <script type="text/javascript">
   $(document).ready(function() {
     $('#toc').toc({
-    headers: 'h1, h2, h3',
-    listType: 'ul',
-    title: ''
+      headers: 'h1, h2, h3',
+      listType: 'ul',
+      title: ''
     });
+  });
+  var url = "https://flniu-7g51ltr9bab2b278.service.tcloudbase.com/view-counter?key=" + location.pathname.replace(/\//g, '_');
+  $.get(url, function(res) {
+    $('#view-count').text("阅读(" + res.count + ")");
   });
 </script>
 <script>

@@ -6,6 +6,12 @@ layout: default
   <header class="post-header">
     <div class="post-title">{{ page.title }}</div>
     {% if page.subtitle %}<div class="post-subtitle">{{ page.subtitle }}</div>{% endif %}
+    <div class="post-meta">
+      {% if page.date %}
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>
+      {% endif %}
+      <span id="view-count"></span>
+    </div>
   </header>
 
   <div class="post-content">

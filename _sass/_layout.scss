@@ -196,6 +196,10 @@
 
 .post-meta{
     color: $grey-color;
+
+    .post-author {
+        margin-left: 1em;
+    }
 }
 
 .post-footer {
@@ -287,4 +291,8 @@ a.external {
 
 .ds-thread {
     margin-top: $spacing-unit;
+}
+
+#view-count:not(:first-child) {
+    margin-left: 1em;
 }

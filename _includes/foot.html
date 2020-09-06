@@ -1,5 +1,5 @@
 <script src="{{ "/js/external_link.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript">
+<script>
   $(document).ready(function() {
     $('#toc').toc({
       headers: 'h1, h2, h3',
@@ -7,9 +7,11 @@
       title: ''
     });
   });
+</script>
+<script>
   var url = "https://flniu-7g51ltr9bab2b278.service.tcloudbase.com/view-counter?key=" + location.pathname.replace(/\//g, '_');
   $.get(url, function(res) {
-    $('#view-count').text("阅读(" + res.count + ")");
+    $('#view-count').text("阅读: " + res.count);
   });
 </script>
 <script>

@@ -2,6 +2,7 @@
 layout: wiki
 title: "Personal Wiki"
 subtitle: "Build a memory palace."
+updated_at: 2020-09-06
 ---
 
 # Tools & Skills

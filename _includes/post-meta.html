@@ -1,0 +1,14 @@
+<div class="post-meta">
+  {% if page.date %}
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">发布: {{ page.date | date: "%Y-%m-%d" }}</time>
+  {% endif %}
+  {% if page.updated_at %}
+    <time datetime="{{ page.updated_at | date_to_xmlschema }}" itemprop="dateModified">更新: {{ page.updated_at | date: "%Y-%m-%d" }}</time>
+  {% endif %}
+  {% if page.author %}
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      作者: <span itemprop="name">{{ page.author }}</span>
+    </span>
+  {% endif %}
+  <span id="view-count"></span>
+</div>

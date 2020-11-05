@@ -2,7 +2,7 @@
 layout: wiki
 title: "Personal Wiki"
 subtitle: "Build a memory palace."
-updated_at: 2020-09-06
+updated_at: 2020-11-05
 ---
 
 # Tools & Skills
@@ -106,6 +106,7 @@ updated_at: 2020-09-06
 ## Developer
 
 * [The Pragmatic Programmer, 20th Anniversary Edition](tpp20/)
+* [Inversion of Control: An Python Example](ioc-python/)
 
 ## Markdown
 

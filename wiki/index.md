@@ -2,7 +2,7 @@
 layout: wiki
 title: "Personal Wiki"
 subtitle: "Build a memory palace."
-updated_at: 2020-11-05
+updated_at: 2021-07-30
 ---
 
 # Tools & Skills
@@ -75,30 +75,22 @@ updated_at: 2020-11-05
 
 # Blogs
 
-## Good Content
-
-* [酷壳](http://coolshell.cn/)
-* [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
-* [4G Spaces 徐宥](http://blog.youxu.info/)
-* [余晟以为](http://www.luanxiang.org/blog/)
+* [酷壳](http://coolshell.cn/): 左耳朵陈皓的博客
+* [阮一峰的网络日志](http://www.ruanyifeng.com/blog/): 阮一峰
+* [4G Spaces 徐宥](http://blog.youxu.info/): 文章质量很高，可惜停更了
 * [Yuguo 余果](https://yuguo.us/): Web全栈，产品设计师
 * [罗磊的独立博客](https://luolei.org/): 前端，摄影，视频，无人机航拍，数码测评，晒妻狂魔
 * [方糖气球](http://ftqq.com/): Easy同学
-* [麦芒](https://serverless80.com/): 关于体验、产品、商业、技术的思考
-
-## Good Design
-
 * [Hux Blog](https://huangxuan.me/): 前端，博客模板很高大上。
 * [HyG](https://gaohaoyang.github.io/): 前端，博客主题功能比较多。
 * [wil.dog](http://wil.dog/): 移动+前端+Python、摄影、音乐。
 * [SunXiaobiu技术不宅](http://sunxiaobiu.github.io/): 基于Jacman，作者头像很萌。
-* [sevenChe](http://blog.sevenche.com/): 极简风格，效果像O'Relly书系封面。
 * [chen9 照澄](http://www.chen9.info/): 文艺
-* [叶劲峰 Milo Yip](http://miloyip.com/cv/): 计算机图形学专家，简历赞。
 * [翁天信 Danny's Blog](http://blog.dandyweng.com/): homeschooler，摄影、设计、编程。
 * [STORM SPIRIT](http://wulfric.me/): Mac, Alfred, Git, Vim, Python, Jekyll, etc.
 * [YUE](https://tengyue.me/): 交互设计师
 * [猫尾博客](https://cattail.me/): 显示文章阅读时长，用issue代评论。
+* [羡辙杂俎](http://zhangwenli.com/blog/): 前端
 
 
 # References
